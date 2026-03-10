@@ -214,7 +214,10 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
  ----> esc ----> :wq ----> sudo chmod +x docker.sh ----> ./docker.sh
 
 docker --version
-Try to pull some default image ----> docker pull hello-world ----> You will be able to pull the image. If you are unable to pull the image. Execute the below command to provide necessary permissions ----> sudo chmod 666 /var/run/docker.sock ----> docker pull hello-world ----> You will be able to pull the image
+Try to pull some default image 
+----> docker pull hello-world ----> You will be able to pull the image. 
+If you are unable to pull the image. 
+Execute the below command to provide necessary permissions ----> sudo chmod 666 /var/run/docker.sock ----> docker pull hello-world ----> You will be able to pull the image
 
 =============================
 2.1.3. Install Trivy on Jenkins Server
